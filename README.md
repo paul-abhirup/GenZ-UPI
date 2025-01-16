@@ -1,1 +1,1 @@
-# Sling-UPI
+# GenZ-UPI
