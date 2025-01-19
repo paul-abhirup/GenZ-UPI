@@ -1,3 +1,9 @@
-export default function Page(): JSX.Element {
-  return <div className="text-5xl">hi there</div>;
+// import { PrismaClient } from "@repo/db/client";
+("use client");
+
+import { useBalance } from "@repo/store/useBalance";
+
+export default function () {
+  const balance = useBalance();
+  return <div>hi there {balance}</div>;
 }
